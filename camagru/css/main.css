@@ -1,0 +1,83 @@
+.global_a {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+	text-decoration: none;
+	color: black;
+}
+
+@media all and (max-width: 400px)	{
+.main_header {
+    font-size: 4vw;
+ 	}
+footer	{
+	font-size: 4vw;
+	}
+}
+
+.main_header	{
+	font-weight: bolder;
+	background: linear-gradient(to right, #f4a479, #e1a1d5);
+	text-align: center;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+	padding: 1rem;
+	position: absolute;
+	right: 0;
+	top: 0;
+	left: 0;
+	border-bottom: 1px solid rgba(0, 0, 0, .0975);
+}
+
+footer	{
+	background: linear-gradient(to left, #f4a479, #e1a1d5);
+	text-align: center;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+	color: grey;
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	padding: 0.5rem;
+	background-color: white;
+	border-top: 1px solid rgba(0, 0, 0, .0975);
+}
+
+body	{
+	right: 0;
+	left: 0;
+	top: 0;
+	padding: 3rem;
+	background-color: #fafafa;
+}
+
+#login_field, #email_field, #passwd, #password_mail, #newpasswd, #confirmation, #newmail, #comment, #button_sign_up, #button_mail, #button_shoot, #button_add_comment, #button_delete, #button_account, #button_load	{
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+	border: 1px solid #b2b2b2;
+	border-radius: 3px;
+	max-width: 268px; 
+	height: 36px; 
+	font-size: 14px; 
+	padding: 9px 8px 7px;
+	line-height: 18px;
+	cursor: auto;
+	width: 100%;
+}
+
+#check_user_input	{
+	position: absolute;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+	padding-top: 2rem;
+}
+
+.home_table	{
+	text-align: center;
+	font-size: 3vw;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30vh;
+	border-collapse: collapse;
+}
+
+.home_cell	{
+	color: white;
+	vertical-align: middle;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}

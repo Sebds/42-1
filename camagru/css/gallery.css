@@ -1,0 +1,94 @@
+.gallery	{
+	padding-top: 30px;
+	max-width: 500px;
+	width: 100%;
+	margin-left: auto; 
+	margin-right: auto;
+	text-align: center;
+	position: relative;
+	width: 100%;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+.article_gallery	{
+	background: linear-gradient(to bottom right, #fdacaa, #feffa9);
+	position: relative;	
+	margin-left: auto; 
+	margin-right: auto;
+	text-align: center;
+	margin-bottom: 15px;
+	background-color: #fff;
+	border-radius: 3px;
+	margin-left: -1px;
+	margin-right: -1px;
+	max-width: 750px;
+}
+
+.article_comment	{
+	position: relative;	
+	margin-left: auto; 
+	margin-right: auto;
+	text-align: center;
+	margin-bottom: 15px;
+	background-color: #fff;
+	border-radius: 3px;
+	margin-left: -1px;
+	margin-right: -1px;
+	max-width: 750px;
+}
+
+.image_header	{
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+	padding: 1rem;
+	border-bottom: 1px solid rgba(0, 0, 0, .0975);
+	text-align: left;
+}
+
+.image_gallery	{
+	margin-left: auto; 
+	margin-right: auto;
+	position: relative;
+	text-align: center;
+	max-width: 500px; 
+	width: 100%;
+}
+
+.image_info	{
+	border-top: 1px solid rgba(0, 0, 0, .0975);
+	padding: 1rem;
+	text-align: left;
+}
+
+.page	{
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+	text-decoration: none;
+	text-align: center;
+	width: 20px;
+	height: 20px;
+	margin-left: 2px;
+	margin-right: 2px;
+	background: lightgrey;
+	color: white;
+	padding: 0.5rem;
+}
+
+.view	{
+   padding: 0;
+    margin: 0 auto;
+    top:0;
+    left:0;
+    bottom:0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.exit_preview	{
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+	font-size: 20px;
+	position: absolute;
+	left:-200px;
+	top:200px;
+  	/*width: 200px;*/
+  	/*height: 50px;*/
+}
