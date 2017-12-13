@@ -16,7 +16,17 @@
 # include <string.h>
 # include <unistd.h>
 # include <stdlib.h>
-# include "get_next_line.h"
+
+# define BUFF_SIZE 1024
+
+typedef struct	s_gnl
+{
+	int			fd;
+	char		*buf_line;
+	char		*buf_pos;
+}				t_gnl;
+
+int				get_next_line(const int fd, char **line);
 
 typedef	struct	s_list
 {
@@ -90,6 +100,6 @@ int				ft_isprime(int nb);
 char			*ft_strupcase(char *str);
 char			*ft_strlowcase(char *str);
 char			*ft_strcapitalize(char *str);
-long long int	ft_atoll(const char *str);
+long long		ft_atoll(const char *str);
 
 #endif

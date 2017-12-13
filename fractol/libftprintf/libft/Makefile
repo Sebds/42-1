@@ -7,13 +7,14 @@
 #    By: nsampre <nsampre@student.42.fr>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2016/11/12 20:35:32 by nsampre           #+#    #+#              #
-#    Updated: 2017/01/03 21:00:48 by nsampre          ###   ########.fr        #
+#    Updated: 2017/02/07 10:42:09 by nsampre          ###   ########.fr        #
 #                                                                              #
 #******************************************************************************#
 
 NAME		=	libft.a
 
 SRCS		=	ft_atoi.c \
+				ft_atoll.c	\
                 ft_bzero.c \
                 ft_isalnum.c \
                 ft_isalpha.c \
@@ -78,13 +79,14 @@ SRCS		=	ft_atoi.c \
 				ft_strupcase.c \
 				ft_strlowcase.c \
 				ft_strcapitalize.c \
-				ft_atoll.c	\
 				get_next_line.c
+
+INC			=	./includes/libft.h
 
 OBJ			=	$(addprefix $(OBJ_PATH),$(SRCS:.c=.o))
 
 CC			=	gcc
-FLAGS		=	-Werror -Wall -Wextra
+FLAGS		=	-Werror -Wall -Wextra -O3
 
 SRC_PATH	=	./
 INC_PATH    =   ./includes/
@@ -101,8 +103,8 @@ $(NAME)		:	obj $(OBJ)
 obj			:
 				@mkdir -p $(OBJ_PATH)
 
-$(OBJ_PATH)%.o:	$(SRC_PATH)%.c
-				@$(CC) $(CFLAGS) -o $@ -c $<
+$(OBJ_PATH)%.o:	$(SRC_PATH)%.c $(INC)
+				@$(CC) $(FLAGS) -o $@ -c $<
 				@printf "\e[38;5;208m▒\e[0m"
 
 clean		:
@@ -113,4 +115,8 @@ fclean		:   clean
 
 re			:	fclean all
 
-.PHONY		:	re clean
+.PHONY		:	re clean fclean
+
+norme		:
+				@norminette $(SRCS)
+				@norminette $(INC_PATH)

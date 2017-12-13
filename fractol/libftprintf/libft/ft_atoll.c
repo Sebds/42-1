@@ -5,18 +5,16 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: nsampre <nsampre@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2017/01/15 21:48:46 by nsampre           #+#    #+#             */
-/*   Updated: 2017/01/15 21:48:46 by nsampre          ###   ########.fr       */
+/*   Created: 2017/02/14 11:10:56 by nsampre           #+#    #+#             */
+/*   Updated: 2017/02/14 11:10:55 by nsampre          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "./includes/libft.h"
-
-long long int	ft_atoll(const char *str)
+long long		ft_atoll(const char *str)
 {
-	long long int	i;
-	long long int	final_number;
-	int				is_negativ;
+	int			i;
+	long long	final_number;
+	int			is_negativ;
 
 	i = 0;
 	final_number = 0;

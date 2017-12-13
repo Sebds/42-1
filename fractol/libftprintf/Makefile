@@ -7,7 +7,7 @@
 #    By: nsampre <nsampre@student.42.fr>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2016/11/12 20:35:32 by nsampre           #+#    #+#              #
-#    Updated: 2017/01/02 16:46:17 by nsampre          ###   ########.fr        #
+#    Updated: 2017/02/07 10:42:53 by nsampre          ###   ########.fr        #
 #                                                                              #
 #******************************************************************************#
 
@@ -66,10 +66,12 @@ SRCS		=	binary_b.c					\
 				param_char.c				\
 				no_format.c					
 
+INC			=	./includes/libftprintf.h
+
 OBJ			=	$(addprefix $(OBJ_PATH),$(SRCS:.c=.o))
 
 CC			=	gcc
-FLAGS		=	-Werror -Wall -Wextra
+FLAGS		=	-Werror -Wall -Wextra -O3
 
 LIBFT		=	./libft/libft.a
 LIBINC		=	-I./libft/includes/
@@ -85,7 +87,6 @@ $(NAME)		:	obj libft $(OBJ)
 				@ar rc $(NAME) $(OBJ)
 				@printf "\n=> \x1B[33mranlib libftprintf.a...\x1B[37m"
 				@ranlib $(NAME)
-
 				@printf "\n=> \x1B[32mlibftprintf.a done !\x1B[37m\n"
 
 obj			:
@@ -99,7 +100,7 @@ $(LIBFT)	:
 				@printf "=> \e[38;5;208mMaking libftprintf/obj dir... \x1B[37m"
 				@cp $(LIBFT) ./$(NAME)
 
-$(OBJ_PATH)%.o:	$(SRC_PATH)%.c
+$(OBJ_PATH)%.o:	$(SRC_PATH)%.c $(INC)
 				@$(CC) $(CFLAGS) $(LIBINC) -I$(INC_PATH) -o $@ -c $<
 				@printf "\e[38;5;208m▒\e[0m"
 
@@ -116,3 +117,6 @@ re			:	fclean all
 norme		:
 				@norminette $(SRC_PATH)
 				@norminette $(INC_PATH)
+				@make norme -C ./libft
+
+.PHONY		:	all re clean fclean

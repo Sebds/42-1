@@ -1,32 +1,31 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   main.c                                             :+:      :+:    :+:   */
+/*   ft_strnjoin.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: nsampre <nsampre@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2017/01/26 20:45:29 by nsampre           #+#    #+#             */
-/*   Updated: 2017/01/26 20:45:29 by nsampre          ###   ########.fr       */
+/*   Created: 2017/02/07 10:34:42 by nsampre           #+#    #+#             */
+/*   Updated: 2017/02/07 10:34:42 by nsampre          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../includes/fdf.h"
+#include "./includes/libft.h"
 
-int		main(int argc, char **argv)
+char	*ft_strnjoin(char const *s1, char const *s2, ssize_t len)
 {
-	t_fdf fdf;
+	char	*s3;
+	char	*temp;
 
-	if (argc != 2)
-		exit(0);
-	if ((fdf.fd = open(argv[1], O_RDONLY)) < 0)
-		exit(0);
-	ft_get_file_dim(&fdf);
-	if ((fdf.fd = open(argv[1], O_RDONLY)) < 0)
-		exit(0);
-	ft_parse_map(&fdf, 0, 0);
-	ft_get_alt_max(&fdf);
-	ft_init_mlx(&fdf);
-	ft_draw(&fdf);
-	mlx_put_image_to_window(fdf.mlx, fdf.win, fdf.frame_address, 0, 0);
-	mlx_loop(fdf.mlx);
+	s3 = ft_strnew(ft_strlen(s1) + len);
+	temp = s3;
+	while (*s1)
+		*s3++ = *s1++;
+	while (*s2 && len > 0)
+	{
+		*s3++ = *s2++;
+		len--;
+	}
+	*s3 = '\0';
+	return (s3 - (s3 - temp));
 }
