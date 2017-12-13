@@ -1,0 +1,685 @@
+<html>
+<head>
+	<title>Tableau de Mendeleiev</title>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+	<style>
+
+		table	{
+			width: 100%;
+			max-width: 1000px;
+			border-collapse: separate;
+			border-spacing: 3px;
+		}
+
+		td {
+			line-height: 1.4;
+			border: 1px solid black;
+			;color: black; 
+			font-family: "helvetica";
+		}
+		
+		poids	{
+			display: block;
+			text-align: right;
+			margin-right: 2px;
+			vertical-align: top;
+			font-size: xx-small;
+		}
+		
+		elem	{
+			display: block;
+			text-align: center;
+			;
+			font-size: x-large;
+			font-weight: bold;
+		}
+
+		num	{
+			display: block;
+			text-align: left;
+			margin-left: 2px;
+			vertical-align: bottom;
+			font-size: small;
+		}
+
+	</style>
+</head>
+<body>
+	<table border="0" cellpadding="0" align="center">
+	<tbody>
+		<tr>
+			<td style="background-color: lightgreen;">
+				<poids>1.0079</poids>
+				<elem>H</elem>
+				<num>1</num>
+			</td>
+			<td colspan="16" style="border: 0px">&nbsp;
+			</td>
+			<td style="background-color: lightblue;">
+				<poids>4.0026</poids>
+				<elem>He</elem>
+				<num>2</num>
+			</td>
+		</tr>
+		<tr>
+			<td style="background-color: lightcoral;">
+				<poids>6.941</poids>
+				<elem>Li</elem>
+				<num>3</num>
+			</td>
+			<td style="background-color: beige;">
+				<poids>9.0122</poids>
+				<elem>Be</elem>
+				<num>4</num>
+			</td>
+			<td colspan="10" style="border: 0px">&nbsp;
+			</td>
+			<td style="background-color: moccasin;">
+				<poids>10.811</poids>
+				<elem>B</elem>
+				<num>5</num>
+			</td>
+			<td style="background-color: lightgreen;">
+				<poids>12.011</poids>
+				<elem>C</elem>
+				<num>6</num>
+			</td>
+			<td style="background-color: lightgreen;">
+				<poids>14.007</poids>
+				<elem>N</elem>
+				<num>7</num>
+			</td>
+			<td style="background-color: lightgreen;">
+				<poids>15.999</poids>
+				<elem>O</elem>
+				<num>8</num>
+			</td>
+			<td style="background-color: lemonchiffon;">
+				<poids>18.998</poids>
+				<elem>F</elem>
+				<num>9</num>
+			</td>
+			<td style="background-color: lightblue;">
+				<poids>20.180</poids>
+				<elem>Ne</elem>
+				<num>10</num>
+			</td>
+		</tr>
+		<tr>
+			<td style="background-color: lightcoral;">
+				<poids>22.990</poids>
+				<elem>Na</elem>
+				<num>11</num>
+			</td>
+			<td style="background-color: beige;">
+				<poids>24.305</poids>
+				<elem>Mg</elem>
+				<num>12</num>
+			</td>
+			<td colspan="10" style="border: 0px">&nbsp;
+			</td>
+			<td style="background-color: lightgrey;">
+				<poids>26.982</poids>
+				<elem>Al</elem>
+				<num>13</num>
+			</td>
+			<td style="background-color: moccasin;">
+				<poids>28.086</poids>
+				<elem>Si</elem>
+				<num>14</num>
+			</td>
+			<td style="background-color: lightgreen;">
+				<poids>30.974</poids>
+				<elem>P</elem>
+				<num>15</num>
+			</td>
+			<td style="background-color: lightgreen;">
+				<poids>32.065</poids>
+				<elem>S</elem>
+				<num>16</num>
+			</td>
+			<td style="background-color: lemonchiffon;">
+				<poids>35.453</poids>
+				<elem>Cl</elem>
+				<num>17</num>
+			</td>
+			<td style="background-color: lightblue;">
+				<poids>39.948</poids>
+				<elem>Ar</elem>
+				<num>18</num>
+			</td>
+		</tr>
+		<tr>
+			<td style="background-color: lightcoral;">
+				<poids>39.098</poids>
+				<elem>K</elem>
+				<num>19</num>
+			</td>
+			<td style="background-color: beige;">
+				<poids>40.078</poids>
+				<elem>Ca</elem>
+				<num>20</num>
+			</td>
+			<td style="background-color: lightpink;">
+				<poids>44.956</poids>
+				<elem>Sc</elem>
+				<num>21</num>
+			</td>
+			<td style="background-color: lightpink;">
+				<poids>47.867</poids>
+				<elem>Ti</elem>
+				<num>22</num>
+			</td>
+			<td style="background-color: lightpink;">
+				<poids>50.942</poids>
+				<elem>V</elem>
+				<num>23</num>
+			</td>
+			<td style="background-color: lightpink;">
+				<poids>51.996</poids>
+				<elem>Cr</elem>
+				<num>24</num>
+			</td>
+			<td style="background-color: lightpink;">
+				<poids>54,938</poids>
+				<elem>Mn</elem>
+				<num>25</num>
+			</td>
+			<td style="background-color: lightpink;">
+				<poids>55.845</poids>
+				<elem>Fe</elem>
+				<num>26</num>
+			</td>
+			<td style="background-color: lightpink;">
+				<poids>58.933</poids>
+				<elem>Co</elem>
+				<num>27</num>
+			</td>
+			<td style="background-color: lightpink;">
+				<poids>58.963</poids>
+				<elem>Ni</elem>
+				<num>28</num>
+			</td>
+			<td style="background-color: lightpink;">
+				<poids>63.546</poids>
+				<elem>Cu</elem>
+				<num>29</num>
+			</td>
+			<td style="background-color: lightgrey;">
+				<poids>65.39</poids>
+				<elem>Zn</elem>
+				<num>30</num>
+			</td>
+			<td style="background-color: lightgrey;">
+				<poids>69.723</poids>
+				<elem>Ga</elem>
+				<num>31</num>
+			</td>
+			<td style="background-color: moccasin;">
+				<poids>72.64</poids>
+				<elem>Ge</elem>
+				<num>32</num>
+			</td>
+			<td style="background-color: moccasin;">
+				<poids>74.022</poids>
+				<elem>As</elem>
+				<num>33</num>
+			</td>
+			<td style="background-color: lightgreen;">
+				<poids>78.96</poids>
+				<elem>Se</elem>
+				<num>34</num>
+			</td>
+			<td style="background-color: lemonchiffon;">
+				<poids>79.904</poids>
+				<elem>Br</elem>
+				<num>35</num>
+			</td>
+			<td style="background-color: lightblue;">
+				<poids>83.80</poids>
+				<elem>Kr</elem>
+				<num>36</num>
+			</td>
+		</tr>
+		<tr>
+			<td style="background-color: lightcoral;">
+				<poids>85.468</poids>
+				<elem>Rb</elem>
+				<num>37</num>
+			</td>
+			<td style="background-color: beige;">
+				<poids>87.62</poids>
+				<elem>Sr</elem>
+				<num>38</num>
+			</td>
+			<td style="background-color: lightpink;">
+				<poids>88.906</poids>
+				<elem>Y</elem>
+				<num>39</num>
+			</td>
+			<td style="background-color: lightpink;">
+				<poids>91.224</poids>
+				<elem>Zr</elem>
+				<num>40</num>
+			</td>
+			<td style="background-color: lightpink;">
+				<poids>92.906</poids>
+				<elem>Nb</elem>
+				<num>41</num>
+			</td>
+			<td style="background-color: lightpink;">
+				<poids>95.94</poids>
+				<elem>Mo</elem>
+				<num>42</num>
+			</td>
+			<td style="background-color: lightpink;">
+				<poids>x98</poids>
+				<elem>Tc</elem>
+				<num>43</num>
+			</td>
+			<td style="background-color: lightpink;">
+				<poids>101.07</poids>
+				<elem>Ru</elem>
+				<num>44</num>
+			</td>
+			<td style="background-color: lightpink;">
+				<poids>102.91</poids>
+				<elem>Rh</elem>
+				<num>45</num>
+			</td>
+			<td style="background-color: lightpink;">
+				<poids>106.42</poids>
+				<elem>Pd</elem>
+				<num>46</num>
+			</td>
+			<td style="background-color: lightpink;">
+				<poids>107.87</poids>
+				<elem>Ag</elem>
+				<num>47</num>
+			</td>
+			<td style="background-color: lightgrey;">
+				<poids>112.41</poids>
+				<elem>Cd</elem>
+				<num>48</num>
+			</td>
+			<td style="background-color: lightgrey;">
+				<poids>114.82</poids>
+				<elem>In</elem>
+				<num>49</num>
+			</td>
+			<td style="background-color: lightgrey;">
+				<poids>118.71</poids>
+				<elem>Sn</elem>
+				<num>50</num>
+			</td>
+			<td style="background-color: moccasin;">
+				<poids>121.76</poids>
+				<elem>Sb</elem>
+				<num>51</num>
+			</td>
+			<td style="background-color: moccasin;">
+				<poids>127.60</poids>
+				<elem>Te</elem>
+				<num>52</num>
+			</td>
+			<td style="background-color: lemonchiffon;">
+				<poids>126.90</poids>
+				<elem>I</elem>
+				<num>53</num>
+			</td>
+			<td style="background-color: lightblue;">
+				<poids>131.29</poids>
+				<elem>Xe</elem>
+				<num>54</num>
+			</td>
+		</tr>
+		<tr>
+			<td style="background-color: lightcoral;">
+				<poids>131.91</poids>
+				<elem>Cs</elem>
+				<num>55</num>
+			</td>
+			<td style="background-color: beige;">
+				<poids>137.33</poids>
+				<elem>Ba</elem>
+				<num>56</num>
+			</td>
+			<td style="background-color: plum;">
+				<poids>138-174</poids>
+				<elem>La*</elem>
+				<num>57-71</num>
+			</td>
+			<td style="background-color: lightpink;">
+				<poids>178.49</poids>
+				<elem>Hf</elem>
+				<num>72</num>
+			</td>
+			<td style="background-color: lightpink;">
+				<poids>180.95</poids>
+				<elem>Ta</elem>
+				<num>73</num>
+			</td>
+			<td style="background-color: lightpink;">
+				<poids>183.84</poids>
+				<elem>W</elem>
+				<num>74</num>
+			</td>
+			<td style="background-color: lightpink;">
+				<poids>186.21</poids>
+				<elem>Re</elem>
+				<num>75</num>
+			</td>
+			<td style="background-color: lightpink;">
+				<poids>190.23</poids>
+				<elem>Os</elem>
+				<num>76</num>
+			</td>
+			<td style="background-color: lightpink;">
+				<poids>192.22</poids>
+				<elem>Ir</elem>
+				<num>77</num>
+			</td>
+			<td style="background-color: lightpink;">
+				<poids>195.08</poids>
+				<elem>Pt</elem>
+				<num>78</num>
+			</td>
+			<td style="background-color: lightpink;">
+				<poids>196.97</poids>
+				<elem>Au</elem>
+				<num>79</num>
+			</td>
+			<td style="background-color: lightgrey;">
+				<poids>200.59</poids>
+				<elem>Hg</elem>
+				<num>80</num>
+			</td>
+			<td style="background-color: lightgrey;">
+				<poids>204.38</poids>
+				<elem>Tl</elem>
+				<num>81</num>
+			</td>
+			<td style="background-color: lightgrey;">
+				<poids>207.2</poids>
+				<elem>Pb</elem>
+				<num>82</num>
+			</td>
+			<td style="background-color: lightgrey;">
+				<poids>208.98</poids>
+				<elem>Bi</elem>
+				<num>83</num>
+			</td>
+			<td style="background-color: lightgrey;">
+				<poids>209</poids>
+				<elem>Po</elem>
+				<num>84</num>
+			</td>
+			<td style="background-color: moccasin;">
+				<poids>210</poids>
+				<elem>At</elem>
+				<num>85</num>
+			</td>
+			<td style="background-color: lightblue;">
+				<poids>222</poids>
+				<elem>Rn</elem>
+				<num>86</num>
+			</td>
+		</tr>
+		<tr>
+			<td style="background-color: lightcoral;">
+				<poids>223</poids>
+				<elem>Fr</elem>
+				<num>87</num>
+			</td>
+			<td style="background-color: beige;">
+				<poids>226</poids>
+				<elem>Ra</elem>
+				<num>88</num>
+			</td>
+			<td style="background-color:violet;">
+				<poids>227-262</poids>
+				<elem>Ac*</elem>
+				<num>89-103</num>
+			</td>
+			<td style="background-color: lightpink;">
+				<poids>261</poids>
+				<elem>Rf</elem>
+				<num>104</num>
+			</td>
+			<td style="background-color: lightpink;">
+				<poids>262</poids>
+				<elem>Db</elem>
+				<num>105</num>
+			</td>
+			<td style="background-color: lightpink;">
+				<poids>266</poids>
+				<elem>Sg</elem>
+				<num>106</num>
+			</td>
+			<td style="background-color: lightpink;">
+				<poids>264</poids>
+				<elem>Bh</elem>
+				<num>107</num>
+			</td>
+			<td style="background-color: lightpink;">
+				<poids>277</poids>
+				<elem>Hs</elem>
+				<num>108</num>
+			</td>
+			<td style="background-color: lavenderblush;">
+				<poids>268</poids>
+				<elem>Mt</elem>
+				<num>109</num>
+			</td>
+			<td style="background-color: lavenderblush;">
+				<poids>281</poids>
+				<elem>Ds</elem>
+				<num>110</num>
+			</td>
+			<td style="background-color: lavenderblush;">
+				<poids>272</poids>
+				<elem>Rg</elem>
+				<num>111</num>
+			</td>
+			<td style="background-color: lightpink;">
+				<poids>285</poids>
+				<elem>Cn</elem>
+				<num>112</num>
+			</td>
+			<td style="background-color: lavenderblush;">
+				<poids>x</poids>
+				<elem>Nh</elem>
+				<num>113</num>
+			</td>
+			<td style="background-color: lightgrey;">
+				<poids>287</poids>
+				<elem>Fl</elem>
+				<num>114</num>
+			</td>
+			<td style="background-color: lavenderblush;">
+				<poids>x</poids>
+				<elem>Mc</elem>
+				<num>115</num>
+			</td>
+			<td style="background-color: lavenderblush;">
+				<poids>291</poids>
+				<elem>Lv</elem>
+				<num>116</num>
+			</td>
+			<td style="background-color: lavenderblush;">
+				<poids>x</poids>
+				<elem>Ts</elem>
+				<num>117</num>
+			</td>
+			<td style="background-color: lavenderblush;">
+				<poids>x</poids>
+				<elem>Og</elem>
+				<num>118</num>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="19" style="border: 0px">&nbsp;</td>
+		</tr>
+		<tr>
+			<td colspan="2" style="border: 0px"></td>
+			<td style="background-color: plum;">
+				<poids>138.91</poids>
+				<elem>La</elem>
+				<num>57</num>
+			</td>
+			<td style="background-color: plum;">
+				<poids>140.12</poids>
+				<elem>Ce</elem>
+				<num>58</num>
+			</td>
+			<td style="background-color: plum;">
+				<poids>140.91</poids>
+				<elem>Pr</elem>
+				<num>59</num>
+			</td>
+			<td style="background-color: plum;">
+				<poids>144.24</poids>
+				<elem>Nd</elem>
+				<num>60</num>
+			</td>
+			<td style="background-color: plum;">
+				<poids>145</poids>
+				<elem>Pm</elem>
+				<num>61</num>
+			</td>
+			<td style="background-color: plum;">
+				<poids>150.36</poids>
+				<elem>Sm</elem>
+				<num>62</num>
+			</td>
+			<td style="background-color: plum;">
+				<poids>151.96</poids>
+				<elem>Eu</elem>
+				<num>63</num>
+			</td>
+			<td style="background-color: plum;">
+				<poids>157.25</poids>
+				<elem>Gd</elem>
+				<num>64</num>
+			</td>
+			<td style="background-color: plum;">
+				<poids>158.93</poids>
+				<elem>Tb</elem>
+				<num>65</num>
+			</td>
+			<td style="background-color: plum;">
+				<poids>162.50</poids>
+				<elem>Dy</elem>
+				<num>66</num>
+			</td>
+			<td style="background-color: plum;">
+				<poids>164.93</poids>
+				<elem>Ho</elem>
+				<num>67</num>
+			</td>
+			<td style="background-color: plum;">
+				<poids>167.26</poids>
+				<elem>Er</elem>
+				<num>68</num>
+			</td>
+			<td style="background-color: plum;">
+				<poids>168.93</poids>
+				<elem>Tm</elem>
+				<num>69</num>
+			</td>
+			<td style="background-color: plum;">
+				<poids>173.05</poids>
+				<elem>Yb</elem>
+				<num>70</num>
+			</td>
+			<td style="background-color: plum;">
+				<poids>174.97</poids>
+				<elem>Lu</elem>
+				<num>71</num>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2" style="border: 0px">
+			</td>
+			<td style="background-color: violet;">
+				<poids>227</poids>
+				<elem>Ac</elem>
+				<num>89</num>
+			</td>
+			<td style="background-color: violet;">
+				<poids>232.04</poids>
+				<elem>Th</elem>
+				<num>90</num>
+			</td>
+			<td style="background-color: violet;">
+				<poids>231.04</poids>
+				<elem>Pa</elem>
+				<num>91</num>
+			</td>
+			<td style="background-color: violet;">
+				<poids>238.03</poids>
+				<elem>U</elem>
+				<num>92</num>
+			</td>
+			<td style="background-color: violet;">
+				<poids>237</poids>
+				<elem>Np</elem>
+				<num>93</num>
+			</td>
+			<td style="background-color: violet;">
+				<poids>244</poids>
+				<elem>Pu</elem>
+				<num>94</num>
+			</td>
+			<td style="background-color: violet;">
+				<poids>243</poids>
+				<elem>Am</elem>
+				<num>95</num>
+			</td>
+			<td style="background-color: violet;">
+				<poids>247</poids>
+				<elem>Cm</elem>
+				<num>96</num>
+			</td>
+			<td style="background-color: violet;">
+				<poids>247</poids>
+				<elem>Bk</elem>
+				<num>97</num>
+			</td>
+			<td style="background-color: violet;">
+				<poids>251</poids>
+				<elem>Cf</elem>
+				<num>98</num>
+			</td>
+			<td style="background-color: violet;">
+				<poids>252</poids>
+				<elem>Es</elem>
+				<num>99</num>
+			</td>
+			<td style="background-color: violet;">
+				<poids>257</poids>
+				<elem>Fm</elem>
+				<num>100</num>
+			</td>
+			<td style="background-color: violet;">
+				<poids>258</poids>
+				<elem>Md</elem>
+				<num>101</num>
+			</td>
+			<td style="background-color: violet;">
+				<poids>259</poids>
+				<elem>No</elem>
+				<num>102</num>
+			</td>
+			<td style="background-color: violet;">
+				<poids>262</poids>
+				<elem>Lr</elem>
+				<num>103</num>
+			</td>
+		</tr>
+	</tbody>
+	</table>
+	<br><br>
+	<center><img src="dimitri.jpeg" title="Dimitri"></center>
+</body>
+</html>

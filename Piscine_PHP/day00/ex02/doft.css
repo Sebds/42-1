@@ -1,0 +1,115 @@
+body	{
+	background: #505050;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+}
+
+table	{
+	width: 1450px;
+	border-collapse: separate;
+	border-spacing: 20px;
+}
+
+td	{
+	background: #909090;
+}
+
+#pad	{
+	background: #505050;
+}
+
+#head	{
+	background: #909090;
+	box-shadow: 8px 8px 12px #000;
+	border-radius: 10px;
+}
+
+#leftcol	{
+	background: #909090;
+	width: 150px;
+	box-shadow: 8px 8px 12px #000;
+	border-radius: 10px;
+}
+
+#center	{
+	position: relative;
+	background: #909090;
+	width: 1024px;
+	height: 576px;
+	box-shadow: 8px 8px 12px #000;
+	border-radius: 10px;
+}
+
+#rightcol	{
+	background: #909090;
+	width: 150px;
+	box-shadow: 8px 8px 12px #000;
+	border-radius: 10px;
+}
+
+#leftcolimg	{
+	display:  block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 70px;
+}
+
+#centerimg	{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 98%;
+	height: 98%;
+}
+
+#rightcolimg	{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 70px;
+}
+
+#brick	{
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	background-image: url('resources/brick.jpg');
+	background-repeat: repeat;
+	width: 130px;
+	height: 75px;
+}
+
+#chatbox	{
+	position: absolute;
+	background: #88FF89;
+	height: 150px;
+	width: 450px;
+	box-shadow: 8px 8px 12px #000;
+	border-radius: 7px;
+	left: -200px;
+	bottom: -70px;
+}
+
+#chattext	{
+	position: relative;
+	margin: auto;
+	margin-top: 5px;
+	height: 90%;
+	width: 90%;
+}
+
+#text1	{
+	font-size: 32px;
+	font-family: "Times New Roman", Times, serif;
+}
+
+#text2	{
+	text-shadow: 4px 4px 4px #ff0000;
+}
+
+#text3	{
+	font-style: italic;
+}
