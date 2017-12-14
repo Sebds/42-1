@@ -31,13 +31,13 @@ For important &| group project, please refer to their own repository :
 
 # Lost ? Here is quick description of each projects.
 
-## [Fillit](http://github.com/nsampre/42/tree/fillit)
+## [Fillit](http://github.com/nsampre/42/tree/fillit/)
 
 Fillit will allow you to discover and get familiar with a recurring programming situation: finding the best solution among a huge number of possibilities within an acceptable time span. For this project, you are expected to fit Tetriminos together to shape the smallest possible square.
 
-<img align="right"  src="./assets/FILLIT.png" width="100%" />
+<img align="right"  src="./assets/FILLIT.png" />
 
-## [ft_ls](http://github.com/nsampre/42/tree/ft_ls)
+## [ft_ls](http://github.com/nsampre/42/tree/ft_ls/)
 
 To learn everything about the filesystem, and learn how files and repositories are stored, write your own version of one of the most used commands: ls.
 
