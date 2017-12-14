@@ -35,65 +35,87 @@ For important &| group project, please refer to their own repository :
 
 Fillit will allow you to discover and get familiar with a recurring programming situation: finding the best solution among a huge number of possibilities within an acceptable time span. For this project, you are expected to fit Tetriminos together to shape the smallest possible square.
 
-<img align="right"  src="./assets/FILLIT.png" />
+<img src="./assets/FILLIT.png" width="100%"/>
+
+
 
 ## [ft_ls](http://github.com/nsampre/42/tree/ft_ls/)
 
 To learn everything about the filesystem, and learn how files and repositories are stored, write your own version of one of the most used commands: ls.
 
-<img align="right"  src="./assets/FT_LS.png" width="100%" />
+<img src="./assets/FT_LS.png" width="100%" />
+
+
 
 ## [ft_select](http://github.com/nsampre/42/tree/ft_select)
 
 This project aims to introduce you to terminal manipulation with termcaps. Here you will learn how to create a user interface for a program launched in the terminal.
 
-<img align="right"  src="./assets/FT_SELECT.gif" width="100%" />
+<img src="./assets/FT_SELECT.gif" width="100%" />
+
+
 
 ## [Filler](http://github.com/nsampre/42/tree/filler)
 
 Create your player to fight other students on the world famous (or infamous) Filler board. The concept is simple: two players gain points by placing on a board, one after the other, the game piece obtained by the game master (in the form of an executable Ruby program). The game ends when the game piece cannot be placed anymore. Have fun!
 
-<img align="right"  src="./assets/FILLER.gif" width="100%" />
+<img src="./assets/FILLER.gif" width="100%" />
+
+
 
 ## [Push_Swap](http://github.com/nsampre/42/tree/push_swap)
 
 Through this project, you will have to sort a stack with a limit number of instructions, in as few moves as possible. To succeed, you'll need to use various sorting algorithms and choose the solution(s) most appropriate for a highly optimised data sorting.
 
-<img align="right"  src="./assets/PUSH_SWAP.gif" width="100%" />
+<img src="./assets/PUSH_SWAP.gif" width="100%" />
+
+
 
 ## [Lem_in](http://github.com/nsampre/42/tree/lem_in)
 
 You must move your ant colony from one point to another in the least amount of time. Through this project, you will explore graph traversal algorithms: your program will have to choose the paths and moves to be taken by the ants.
 
-<img align="right"  src="./assets/LEM_IN.png" width="100%" />
+<img src="./assets/LEM_IN.png" width="100%" />
+
+
 
 ## [Fdf](http://github.com/nsampre/42/tree/fdf)
 
 Every programs you wrote until now were executing in text mode within your terminal. Let's discover something more interesting: how to open a graphic window and draw inside ? As a way to start your journey to graphic programming land, Fdf offers you to draw the wireframe of a 3D landscape.
 
-<img align="right"  src="./assets/FDF.png" width="100%" />
+<img src="./assets/FDF.png" width="100%" />
+
+
 
 ## [Fract'ol](http://github.com/nsampre/42/tree/fractol)
 
 Discover 2D programming and the psychedelic universe of fractals using the minilibX in this project.
 
-<img align="right"  src="./assets/FRACTOL.gif" width="100%" />
+<img src="./assets/FRACTOL.gif" width="100%" />
+
+
 
 ## [Wolf3D](http://github.com/nsampre/42/tree/wolf3d)
 
 Inspired by the world-famous 90's game of similar naming (which was the first FPS ever). Explore the technique of ray-casting. The goal is to create a dynamic view inside of a maze. How far will you go to create the best game we have ever seen?
 
-<img align="right"  src="./assets/WOLF3D.gif" width="100%" />
+<img src="./assets/WOLF3D.gif" width="100%" />
+
+
 
 ## [RTv1](http://github.com/nsampre/42/tree/rtv1)
 
 Discover the fundamental principles of Raytracing and computer-generated imagery. Create simple scenes involving objects and non complex lights.
 
-<img align="right"  src="./assets/RTv1.png" width="100%" />
+<img src="./assets/RTv1.png" width="100%" />
+
+
 
 ## [Piscine PHP](http://github.com/nsampre/42/tree/piscine_php)
 
 The PHP Piscine is the gateway to all of the 42 curriculum web projects. It addresses the fundamentals related to this technology in two weeks of challenges including daily projects and weekend rushes. Oh what webs we weave.
+
+
 
 ## [Camagru](http://github.com/nsampre/42/tree/camagru)
 
