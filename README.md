@@ -35,13 +35,13 @@ For important &| group project, please refer to their own repository :
 
 Fillit will allow you to discover and get familiar with a recurring programming situation: finding the best solution among a huge number of possibilities within an acceptable time span. For this project, you are expected to fit Tetriminos together to shape the smallest possible square.
 
-![alt text](https://img.lght.pics/PPf6.png "Fillit demo")
+<img align="right"  src="./assets/FILLIT.gif" width="100%" />
 
 ## [ft_ls](http://github.com/nsampre/42/tree/ft_ls)
 
 To learn everything about the filesystem, and learn how files and repositories are stored, write your own version of one of the most used commands: ls.
 
-![alt text](https://img2.lght.pics/PPfa.png "ft_ls demo")
+<img align="right"  src="./assets/FT_LS.gif" width="100%" />
 
 ## [ft_select](http://github.com/nsampre/42/tree/ft_select)
 
@@ -65,13 +65,13 @@ Through this project, you will have to sort a stack with a limit number of instr
 
 You must move your ant colony from one point to another in the least amount of time. Through this project, you will explore graph traversal algorithms: your program will have to choose the paths and moves to be taken by the ants.
 
-![alt text](https://img1.lght.pics/PPfY.png "lem_in demo")
+<img align="right"  src="./assets/LEM_IN.gif" width="100%" />
 
 ## [Fdf](http://github.com/nsampre/42/tree/fdf)
 
 Every programs you wrote until now were executing in text mode within your terminal. Let's discover something more interesting: how to open a graphic window and draw inside ? As a way to start your journey to graphic programming land, Fdf offers you to draw the wireframe of a 3D landscape.
 
-![alt text](https://img1.lght.pics/PPf0.png "fdf demo")
+<img align="right"  src="./assets/FDF.gif" width="100%" />
 
 ## [Fract'ol](http://github.com/nsampre/42/tree/fractol)
 
@@ -89,7 +89,7 @@ Inspired by the world-famous 90's game of similar naming (which was the first FP
 
 Discover the fundamental principles of Raytracing and computer-generated imagery. Create simple scenes involving objects and non complex lights.
 
-![alt text](https://img.lght.pics/PPfx.png "RTv1 demo")
+<img align="right"  src="./assets/RTv1.gif" width="100%" />
 
 ## [Piscine PHP](http://github.com/nsampre/42/tree/piscine_php)
 
