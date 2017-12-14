@@ -47,19 +47,19 @@ To learn everything about the filesystem, and learn how files and repositories a
 
 This project aims to introduce you to terminal manipulation with termcaps. Here you will learn how to create a user interface for a program launched in the terminal.
 
-![alt text](https://img2.lght.pics/PPfZ.gif "ft_select demo")
+<img align="right"  src="./assets/FT_SELECT.gif" width="100%" />
 
 ## [Filler](http://github.com/nsampre/42/tree/filler)
 
 Create your player to fight other students on the world famous (or infamous) Filler board. The concept is simple: two players gain points by placing on a board, one after the other, the game piece obtained by the game master (in the form of an executable Ruby program). The game ends when the game piece cannot be placed anymore. Have fun!
 
-![alt text](https://img1.lght.pics/PPfn.gif "filler demo")
+<img align="right"  src="./assets/FILLER.gif" width="100%" />
 
 ## [Push_Swap](http://github.com/nsampre/42/tree/push_swap)
 
 Through this project, you will have to sort a stack with a limit number of instructions, in as few moves as possible. To succeed, you'll need to use various sorting algorithms and choose the solution(s) most appropriate for a highly optimised data sorting.
 
-![alt text](https://img.lght.pics/PPfg.gif "push_swap demo")
+<img align="right"  src="./assets/PUSH_SWAP.gif" width="100%" />
 
 ## [Lem_in](http://github.com/nsampre/42/tree/lem_in)
 
@@ -77,13 +77,13 @@ Every programs you wrote until now were executing in text mode within your termi
 
 Discover 2D programming and the psychedelic universe of fractals using the minilibX in this project.
 
-![alt text](https://img2.lght.pics/PPfA.gif "fractol demo")
+<img align="right"  src="./assets/FRACTOL.gif" width="100%" />
 
 ## [Wolf3D](http://github.com/nsampre/42/tree/wolf3d)
 
 Inspired by the world-famous 90's game of similar naming (which was the first FPS ever). Explore the technique of ray-casting. The goal is to create a dynamic view inside of a maze. How far will you go to create the best game we have ever seen?
 
-![alt text](https://img1.lght.pics/PPfH.gif "wolf3d demo")
+<img align="right"  src="./assets/WOLF3D.gif" width="100%" />
 
 ## [RTv1](http://github.com/nsampre/42/tree/rtv1)
 
